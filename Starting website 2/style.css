@@ -14,7 +14,6 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
     cursor: pointer;
 }
 
@@ -195,7 +194,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: #575757;
 }
 
 .d-bloc .panel button:hover,
@@ -307,6 +306,10 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+}
+
+.nav_link {
+   text-decoration: underline;
 }
 
 .navbar-brand {
@@ -471,7 +474,7 @@ nav .caret {
 }
 
 .btn-d,
-.btn-d:hover,
+.btn-d:hover,on-md
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
@@ -493,7 +496,8 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    color: black!important;
+    font-size: 44px!important;
 }
 
 .icon-lg {
@@ -668,7 +672,10 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+}
+
+.ul_footer {
+    color: black!important;
 }
 
 .container {
@@ -716,6 +723,10 @@ p {
     font-weight: 700;
 }
 
+#bloc8 {
+    color: black!important;
+}
+
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -756,6 +767,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.title_footer {
+    color: black;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -770,7 +785,6 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -788,15 +802,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: white;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: black;
     color: #FFFFFF!important;
 }
 
