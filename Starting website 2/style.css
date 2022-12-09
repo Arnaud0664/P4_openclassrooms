@@ -272,6 +272,23 @@ a:hover {
     margin-top: 80px;
 }
 
+.title_main {
+    font-size: 23px;
+}
+
+.title2 {
+    font-size: 23px;
+}
+
+.citation {
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.citation_source {
+    font-size: 23px;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
